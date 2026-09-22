@@ -718,12 +718,7 @@ import {
 } from 'lucide-react';
 import './App.css';
 
-const defaultCode = `// أكتب أو ألصق كودك هنا للتجربة
-function calculateSum(arr: number[]): number {
-  return arr.reduce((acc, curr) => acc + curr, 0);
-}
-
-console.log(calculateSum([1, 2, 3, 4, 5]));`;
+const defaultCode = ` //أكتب أو ألصق كودك هنا للتجربة`;
 
 type Action = 'explain' | 'fix' | 'quiz';
 
@@ -905,8 +900,8 @@ export default function App() {
             <Code2 size={18} color="#4fd1c5" />
           </div>
           <div className="brand-text">
-            <h1>AI Code Tutor</h1>
-            <p>مدرّس البرمجة الذكي</p>
+            <h1>CodeMentor AI</h1>
+            <p>حلّل، صحّح، واختبر مهاراتك البرمجية بالذكاء الاصطناعي</p>
           </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
