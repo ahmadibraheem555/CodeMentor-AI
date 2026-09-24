@@ -1254,8 +1254,8 @@ export default function App() {
             <Code2 size={18} color="#4fd1c5" />
           </div>
           <div className="brand-text">
-            <h1>AI Code Tutor</h1>
-            <p>مدرّس البرمجة الذكي</p>
+            <h1>CodeMentor AI</h1>
+            <p>حلّل، صحّح، واختبر مهاراتك البرمجية بالذكاء الاصطناعي</p>        
           </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
